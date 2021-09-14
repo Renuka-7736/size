@@ -1,0 +1,15 @@
+# include<iostream>
+using namespace std;
+int main()
+{
+int integerdatatype;
+char chartype;
+float floattype;
+double doubletype;
+
+cout<<"the size of integer datatype is :"<<sizeof(integerdatatype)<<"\n";
+cout<<"the size of char data type is:"<<sizeof(chartype)<<"\n";
+cout<<"the size of float data  type is:"<<sizeof(floattype)<<"\n";
+cout<<"the size of float data type is:"<<sizeof(doubletype)<<"\n";
+return0;
+}
